@@ -1,0 +1,119 @@
+body,h3,.h1{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url("yamaha.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    color: whitesmoke;
+}
+header a{
+   text-decoration: none;
+   color: blue;
+   padding: 2em;
+}
+header{
+    display: flex;
+
+}
+#logo{
+    font-size:2em;
+    flex:5;
+    text-transform:lowercase;
+    font-weight: 100;
+}
+nav{
+    flex: 2;
+    display:flex;
+    text-decoration: underline;
+    color: black;
+}
+nav a{
+    flex: 3;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    height: 50vh;
+    font-weight: bolder;
+}
+.subtext{
+    text-align: right;
+    color: blue;
+    text-decoration:dotted;
+}
+.line1{
+    font-size: 2.5em;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+.line2{
+    
+    margin-top: 1em;
+}
+.line3{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+button{
+    width:max-content;
+    margin-top: 1em;
+    border-radius: 1em;
+}
+.footer{
+    background-color: black;
+color: aliceblue
+}
+h3{
+    text-align: center;
+    text-decoration:line-through;
+}
+p{
+    text-size-adjust: 2em;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons{  
+    text-decoration:none ;
+    background-color:white;
+    border-radius: 50px;
+    margin: 30px;
+}
+.list{
+    margin: 10px o;
+    display: inline;
+}
+.list ul{
+    display: flex;
+    justify-content:center;
+    text-decoration: underline;
+    text-align: right;
+}
+.list ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+
+}
+.footerbottom{
+    margin:0%;
+    background-color: black;
+    color: white;
+    
+}
+.list{
+  justify-content: right;
+}
+p{
+    align-content: center;
+    padding: 10px;
+}
